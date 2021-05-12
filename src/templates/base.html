@@ -21,11 +21,15 @@
 
     <!-- Custom js -->
     <script src="{% static 'functions.js' %}" defer></script>
+
     {% block scripts %}
+     <!-- insert your-app scripts -->
+
     {% endblock scripts %}
 
     <title>read posts | {% block title %}{% endblock title %}</title>
   </head>
+  
   <body>
     {% include "navbar.html" %}
     <div class="container mt-3 mb-3">
